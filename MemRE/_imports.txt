@@ -1,0 +1,472 @@
+Microsoft (R) COFF/PE Dumper Version 14.44.35225.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file c:\Users\not1cyyy\Desktop\mingo is gay\MemRE\x64\Release\YnJhemlsaWFuIGJ1c3R5IG1pbGY.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Section contains the following imports:
+
+    KERNEL32.dll
+             14002E058 Import Address Table
+             140039400 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         241 GetCurrentProcess
+                         68E lstrlenW
+                         5D8 TerminateProcess
+                         2A1 GetModuleFileNameW
+                         5E9 Thread32Next
+                         556 SetEndOfFile
+                         19D FindClose
+                         625 WaitForSingleObject
+                          E6 CreateFileW
+                         270 GetFileAttributesW
+                         5D1 SuspendThread
+                         507 ResumeThread
+                         5FE UnmapViewOfFile
+                         2A2 GetModuleHandleA
+                         43F OpenProcess
+                         118 CreateToolhelp32Snapshot
+                         462 ProcessIdToSessionId
+                         461 Process32NextW
+                         3D4 K32GetModuleBaseNameW
+                         364 GlobalAlloc
+                         136 DeleteFileW
+                         45F Process32FirstW
+                         36B GlobalFree
+                          9D CloseHandle
+                         314 GetSystemInfo
+                         10F CreateThread
+                         417 Module32FirstW
+                         61B VirtualProtectEx
+                         669 WriteProcessMemory
+                         36F GlobalLock
+                         569 SetFilePointerEx
+                         242 GetCurrentProcessId
+                         2A5 GetModuleHandleW
+                         419 Module32NextW
+                         47A QueryFullProcessImageNameW
+                         58F SetProcessWorkingSetSize
+                          E3 CreateFileMappingW
+                         412 MapViewOfFile
+                         376 GlobalUnlock
+                         446 OpenThread
+                         61D VirtualQueryEx
+                         267 GetExitCodeProcess
+                         423 MultiByteToWideChar
+                         26B GetFileAttributesA
+                         64C WideCharToMultiByte
+                         1A8 FindFirstFileW
+                         39A InitializeSListHead
+                         31A GetSystemTimeAsFileTime
+                         246 GetCurrentThreadId
+                         481 QueryPerformanceCounter
+                         301 GetStartupInfoW
+                         3B0 IsDebuggerPresent
+                         3B8 IsProcessorFeaturePresent
+                         5B8 SetUnhandledExceptionFilter
+                         5FB UnhandledExceptionFilter
+                         518 RtlVirtualUnwind
+                         511 RtlLookupFunctionEntry
+                         509 RtlCaptureContext
+                         2F0 GetProcessWorkingSetSize
+                          D4 CreateDirectoryW
+                         3CA K32EnumProcessModules
+                         4AC ReadProcessMemory
+                         1B4 FindNextFileW
+                         3D7 K32GetModuleInformation
+                         619 VirtualLock
+                         5C8 Sleep
+                         2DD GetProcAddress
+                         61E VirtualUnlock
+
+    USER32.dll
+             14002E570 Import Address Table
+             140039918 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         1F7 GetWindowLongW
+                         206 GetWindowThreadProcessId
+                         204 GetWindowTextLengthW
+                         193 GetMessageW
+                          AB DefWindowProcW
+                         1D4 GetSystemMenu
+                         3DF UnregisterHotKey
+                          22 CallWindowProcW
+                         1E9 GetWindow
+                         1FE GetWindowRect
+                         181 GetMenu
+                         22B InsertMenuItemW
+                          B9 DestroyWindow
+                         14B GetDC
+                         25C IsWindowVisible
+                         398 SetWindowPos
+                         299 MessageBoxW
+                         394 SetWindowLongPtrW
+                          7A CreateWindowExW
+                          AF DeleteMenu
+                         32D SendMessageW
+                         1D5 GetSystemMetrics
+                         39D SetWindowTextW
+                          75 CreatePopupMenu
+                         1F6 GetWindowLongPtrW
+                         2EE RegisterClassExW
+                         3CC TrackPopupMenu
+                         3B1 ShowWindow
+                         255 IsWindow
+                         2AA OpenClipboard
+                          C1 DispatchMessageW
+                         386 SetTimer
+                         2EA RedrawWindow
+                         23F IsDialogMessageW
+                         3FC VkKeyScanW
+                          50 CloseClipboard
+                         363 SetMenuItemInfoW
+                          ED EmptyClipboard
+                         2B8 PeekMessageW
+                         2EF RegisterClassW
+                         2FB RegisterHotKey
+                         258 IsWindowEnabled
+                         35D SetMenu
+                         240 IsDlgButtonChecked
+                         111 EnumWindows
+                          B6 DestroyMenu
+                         34E SetFocus
+                         3D2 TranslateMessage
+                         269 LoadIconW
+                         267 LoadCursorW
+                          DB DrawMenuBar
+                         33A SetClipboardData
+                         40F wsprintfW
+                         395 SetWindowLongW
+                         13A GetClientRect
+                         156 GetDlgItem
+                         2BD PostQuitMessage
+                           C AppendMenuW
+                         25F KillTimer
+                          43 CheckDlgButton
+                         1D2 GetSysColorBrush
+                          74 CreateMenu
+                         19A GetParent
+                         3EC UpdateWindow
+                         350 SetForegroundWindow
+                         26B LoadImageW
+                         230 InvalidateRect
+                         311 ReleaseDC
+                         14A GetCursorPos
+                          F4 EnableWindow
+                         205 GetWindowTextW
+
+    GDI32.dll
+             14002E030 Import Address Table
+             1400393D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2E7 GetTextExtentPoint32W
+                          44 CreateFontW
+                         37C SelectObject
+                         384 SetBkMode
+
+    COMDLG32.dll
+             14002E018 Import Address Table
+             1400393C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           E GetSaveFileNameW
+                           C GetOpenFileNameW
+
+    SHELL32.dll
+             14002E560 Import Address Table
+             140039908 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         1B0 ShellExecuteW
+
+    MSVCP140.dll
+             14002E280 Import Address Table
+             140039628 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4FD ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+                         4B5 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+                         51B ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+                         27F ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+                         228 ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+                         3FE ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+                         437 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+                         52B ?unshift@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+                         1B5 ?_Getcat@?$codecvt@_WDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+                         132 ??Bios_base@std@@QEBA_NXZ
+                          82 ??1?$basic_iostream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+                         12E ??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@_K@Z
+                         121 ??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@H@Z
+                         12A ??6?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+                          88 ??1?$basic_ostream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+                          85 ??1?$basic_istream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+                         3F8 ?imbue@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAXAEBVlocale@2@@Z
+                         4FF ?sync@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAHXZ
+                         4B7 ?setbuf@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAPEAV12@PEA_W_J@Z
+                         548 ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
+                         545 ?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEA_W_J@Z
+                         51D ?uflow@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAGXZ
+                         4D7 ?showmanyc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JXZ
+                         281 ?_Unlock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+                         3F6 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+                          8B ??1?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+                          7F ??1?$basic_ios@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+                          17 ??0?$basic_iostream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@@Z
+                          2B ??0?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@_N@Z
+                          22 ??0?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@_N@Z
+                         4E3 ?sputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAA_JPEB_W_J@Z
+                         4E0 ?sputc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAG_W@Z
+                          10 ??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+                         536 ?widen@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBA_WD@Z
+                         2B4 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+                          13 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+                         102 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z
+                         109 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+                          80 ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                         22A ?_Lock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+                         4C9 ?setstate@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
+                          A5 ??1_Lockit@std@@QEAA@XZ
+                          6D ??0_Lockit@std@@QEAA@H@Z
+                         1D5 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+                         51E ?uncaught_exception@std@@YA_NXZ
+                         1EE ?_Id_cnt@id@locale@std@@0HA
+                         28F ?_Xout_of_range@std@@YAXPEBD@Z
+                         3C9 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+                         1AB ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+                         28E ?_Xlength_error@std@@YAXPEBD@Z
+                          2F ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+                         3C0 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+                           C ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+                         1F5 ?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+                          1A ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+                         244 ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+                         527 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+                         1B1 ?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+                         4C5 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+                         4DE ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+                         4E1 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+                         368 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+                         3FA ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+                         433 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+                          7D ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                          89 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                         4D5 ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+                         543 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+                         546 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+                          83 ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+                         3C5 ?good@ios_base@std@@QEBA_NXZ
+                         130 ??7ios_base@std@@QEBA_NXZ
+                         29D ?always_noconv@codecvt_base@std@@QEBA_NXZ
+                         5B3 _Thrd_hardware_concurrency
+                         275 ?_Throw_Cpp_error@std@@YAXH@Z
+                         28B ?_Xbad_alloc@std@@YAXXZ
+                         28D ?_Xinvalid_argument@std@@YAXPEBD@Z
+                         1AD ?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
+                         3CB ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+                         54E _Cnd_do_broadcast_at_thread_exit
+                         5B4 _Thrd_id
+                         5B5 _Thrd_join
+                         21B ?_Ipfx@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAA_N_N@Z
+                          35 ??0?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+                         3C2 ?getloc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEBA?AVlocale@2@XZ
+                         497 ?sbumpc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ
+                         4D1 ?sgetc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ
+                         4DA ?snextc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ
+                         1F9 ?_Init@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAXXZ
+                         246 ?_Osfx@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAXXZ
+                         36A ?flush@?$basic_ostream@_WU?$char_traits@_W@std@@@std@@QEAAAEAV12@XZ
+
+    COMCTL32.dll
+             14002E000 Import Address Table
+             1400393A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          7C InitCommonControlsEx
+                             Ordinal   345
+
+    UxTheme.dll
+             14002E7B0 Import Address Table
+             140039B58 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          51 SetWindowTheme
+
+    VERSION.dll
+             14002E840 Import Address Table
+             140039BE8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 GetFileVersionInfoSizeA
+                           0 GetFileVersionInfoA
+                           F VerQueryValueA
+
+    VCRUNTIME140_1.dll
+             14002E830 Import Address Table
+             140039BD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 __CxxFrameHandler4
+
+    VCRUNTIME140.dll
+             14002E7C0 Import Address Table
+             140039B68 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1C __current_exception_context
+                           1 _CxxThrowException
+                          3E memset
+                           8 __C_specific_handler
+                          3B memcmp
+                          3C memcpy
+                          22 __std_exception_destroy
+                          1B __current_exception
+                          3D memmove
+                          46 wcsstr
+                          23 __std_terminate
+                          21 __std_exception_copy
+                          45 wcsrchr
+
+    api-ms-win-crt-stdio-l1-1-0.dll
+             14002E9A8 Import Address Table
+             140039D50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          79 fgetpos
+                          8A fwrite
+                          78 fgetc
+                          74 fclose
+                          54 _set_fmode
+                          98 setvbuf
+                          7F fputc
+                          9D ungetc
+                          88 fsetpos
+                           1 __p__commode
+                          9E ungetwc
+                          83 fread
+                          7B fgetwc
+                          11 __stdio_common_vswprintf
+                          2F _fseeki64
+                          81 fputwc
+                          39 _get_stream_buffer_pointers
+                           F __stdio_common_vsprintf_s
+                          13 __stdio_common_vswprintf_s
+                          77 fflush
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             14002E908 Import Address Table
+             140039CB0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          14 _beginthreadex
+                          3D _register_thread_local_exe_atexit_callback
+                          15 _c_exit
+                          3A _invoke_watson
+                          23 _exit
+                          55 exit
+                          37 _initterm_e
+                          36 _initterm
+                          67 terminate
+                          2B _get_narrow_winmain_command_line
+                          18 _configure_narrow_argv
+                          33 _initialize_narrow_environment
+                          34 _initialize_onexit_table
+                          3C _register_onexit_function
+                          1E _crt_atexit
+                          16 _cexit
+                          40 _seh_filter_exe
+                          42 _set_app_type
+                          21 _errno
+
+    api-ms-win-crt-filesystem-l1-1-0.dll
+             14002E8A0 Import Address Table
+             140039C48 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          16 _lock_file
+                          24 _unlock_file
+
+    api-ms-win-crt-string-l1-1-0.dll
+             14002EA50 Import Address Table
+             140039DF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          54 _wcsnicmp
+                          4A _wcsicmp
+                          76 iswdigit
+                          A1 wcscpy_s
+                          AD wcstok_s
+                          89 strcpy_s
+                          6C isprint
+                          A8 wcsncpy_s
+                          9A towlower
+
+    api-ms-win-crt-convert-l1-1-0.dll
+             14002E860 Import Address Table
+             140039C08 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          3E _wcstoui64
+                          48 _wtoi64
+                          45 _wtof
+                          74 wcstoull
+                          6E wcstol
+                          6B wcstod
+                          47 _wtoi
+
+    api-ms-win-crt-heap-l1-1-0.dll
+             14002E8B8 Import Address Table
+             140039C60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 _callnewh
+                          16 _set_new_mode
+                          18 free
+                          19 malloc
+
+    api-ms-win-crt-math-l1-1-0.dll
+             14002E8F0 Import Address Table
+             140039C98 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          7D ceilf
+                           9 __setusermatherr
+
+    api-ms-win-crt-locale-l1-1-0.dll
+             14002E8E0 Import Address Table
+             140039C88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 _configthreadlocale
+
+  Summary
+
+        4000 .data
+        2000 .pdata
+        F000 .rdata
+        1000 .reloc
+       3B000 .rsrc
+       2D000 .text
