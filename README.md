@@ -1,11 +1,10 @@
 # Anti-Cheat Amateur
 
-## Demonstration video
+<img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/17a8ed37-90f9-4643-aad6-8c48dd455235" />
 
-<video src="assets/Preview.mp4" controls width="100%"></video>
 
-## Disclaimer & Research Authorization
 
+# Disclaimer 
 > [!NOTE]
 > This project contains security research code developed for educational and defensive anti-cheat evaluation purposes. I AM NOT RESPONSIBLE FOR ANY DAMAGES CAUSED BY THIS SOFTWARE.
 
