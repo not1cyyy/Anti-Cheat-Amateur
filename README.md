@@ -1,5 +1,9 @@
 # Anti-Cheat Amateur
 
+## Demonstration video
+
+<video src="assets/Preview.mp4" controls width="100%"></video>
+
 ## Disclaimer & Research Authorization
 
 > [!NOTE]
